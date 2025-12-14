@@ -1,2 +1,6 @@
 USE alx_book_store;
-SHOW CREATE TABLE Books;
+-- task_4.sql
+-- Script to print the full description of the 'Books' table
+
+SHOW FULL COLUMNS FROM Books;
+
